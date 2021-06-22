@@ -1,0 +1,3 @@
+SQL> delete from membert01;
+
+2 rows deleted.

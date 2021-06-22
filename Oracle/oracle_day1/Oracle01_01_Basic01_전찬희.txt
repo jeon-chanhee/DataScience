@@ -1,0 +1,16 @@
+sqlplus 계정/pwd
+
+-----------------------------------------
+
+cl scr               (화면 지우기)
+show user        (유저 계정명 보기)
+show pagesize
+show linesize
+select * form tab;   (테이블 보기)
+** 접속상태에서 계정변경
+
+conn 계정
+pwd 
+conn 계정/ora11
+
+conn /as sysdba   (슈퍼계정으로 들어가는 방법)

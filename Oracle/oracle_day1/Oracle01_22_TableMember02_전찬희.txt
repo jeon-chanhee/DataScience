@@ -1,0 +1,11 @@
+SQL> start c:\oracleWS\TableMember.sql;
+
+Table dropped.
+
+
+Table created.
+
+
+TNAME                                                        TABTYPE         CLUSTERID
+------------------------------------------------------------ -------------- ----------
+MEMBERT01                                                    TABLE

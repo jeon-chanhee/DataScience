@@ -1,0 +1,60 @@
+1.oracle 설치 확인(실행) 방법
+  1)sqlpus system(계정)
+     pwd
+  2)sqlplus system(계정)/pwd
+
+2. 빠져나오기 : exit(할 일 끝나면 꼭 해야함!!)
+3. 접속계정 확인: show user
+4. 관리자 계정 : sys(최상위 관리자), system
+5. 테이블: user table, dictionary table 관리용(미리 만들어둔)->tab
+6. cl scr : 작업내용 깨끗하게 지우기
+7.show pagesize/linesize
+8. 접속상태에서 계정 변경
+  1)conn 계정
+     pwd
+  2)conn 계정/ora11
+9. sys계정 접속 방법 : conn /as sysdba
+10. oracle의 주석은 —임.
+11. spool 파일경로\파일명.확장자 : spool off 전까지 작업한 내용을 파일에 저장
+
+select >>  columns
+* from >> Table
+tab;     모든 
+
+**DBMS
+계정 확인:
+      ALL_USERS
+
+desc ALL_USERS;        << 필드를 알 수 있음 (테이블의 구조)
+       username          << columns
+
+select username
+from all_users;           << all users 테이블 확인
+
+* 연습용 계정 : scott / HR
+
+## 계정 사용
+conn 계정/pwd
+
+** conn hr/hr
+** hr 계정 수정, lock 풀고싶다. ALTER 씀
+alter user HR account unlock;
+ alter user HR identified by hr;     << by 다음에 비밀번호 설정
+
+
+employees 테이블에서 
+         employee_id,first_name, last_name 확인.(desc)
+
+# SQL Aliases
+select column_name as alias_name 
+from table_name;                            << 형식
+
+select employee_id as "사번", first_name as "이름",last_name as "성" from employees;
+select employee_id as 사번, first_name as 이름,last_name as 성 from employees;
+select employee_id 사번, first_name 이름,last_name 성 from employees;
+
+# 관리자 계정
+create user angel identified by angel
+
+# 계정 삭제
+drop user angel
