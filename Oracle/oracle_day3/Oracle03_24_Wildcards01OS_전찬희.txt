@@ -1,0 +1,42 @@
+C:\Windows>dir sys*
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 6C88-E580
+
+ C:\Windows 디렉터리
+
+2019-12-07  오후 06:14    <DIR>          System
+2019-03-19  오후 01:49               219 system.ini
+2021-06-03  오전 10:41    <DIR>          System32
+2019-12-08  오전 12:00    <DIR>          SystemApps
+2021-05-21  오전 10:28    <DIR>          SystemResources
+2021-05-25  오후 01:06    <DIR>          SysWOW64
+               1개 파일                 219 바이트
+               5개 디렉터리  165,010,329,600 바이트 남음
+
+C:\Windows>dir ?e*
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 6C88-E580
+
+ C:\Windows 디렉터리
+
+2021-05-21  오후 12:26    <DIR>          debug
+2019-12-07  오후 11:56    <DIR>          Help
+2021-05-21  오전 10:21         1,076,736 HelpPane.exe
+2019-12-07  오후 06:14    <DIR>          Performance
+2021-05-21  오전 10:21           370,176 regedit.exe
+2019-12-07  오후 06:31    <DIR>          Registration
+2019-12-08  오전 12:00    <DIR>          RemotePackages
+2019-12-07  오후 06:14    <DIR>          rescache
+2019-12-07  오후 06:31    <DIR>          Resources
+2019-12-08  오전 12:00    <DIR>          security
+2021-05-21  오전 10:42    <DIR>          ServiceProfiles
+2021-05-24  오후 12:49    <DIR>          ServiceState
+2021-05-21  오전 10:28    <DIR>          servicing
+2021-05-21  오후 12:25    <DIR>          Setup
+2021-05-21  오후 12:30             8,186 setupact.log
+2021-05-21  오후 12:27                 0 setuperr.log
+2021-06-08  오후 01:17    <DIR>          Temp
+2020-11-17  오전 06:19    <DIR>          TextInput
+2019-12-07  오후 06:31    <DIR>          Web
+               4개 파일           1,455,098 바이트
+              15개 디렉터리  165,010,329,600 바이트 남음

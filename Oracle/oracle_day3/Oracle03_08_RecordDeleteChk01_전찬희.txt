@@ -1,0 +1,17 @@
+SQL> delete from sawon
+  2  where deptno = 10;
+delete from sawon
+*
+ERROR at line 1:
+ORA-02292: integrity constraint (SCOTT.SAWON_SAMGR_FK) violated - child record found
+
+
+SQL> delete from sawon
+  2  where deptno = 20;
+
+1 row deleted.
+
+SQL> delete from sawon
+  2  where deptno = 10;
+
+1 row deleted.

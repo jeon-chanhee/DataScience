@@ -1,0 +1,25 @@
+SQL> select round(777.777, -2) from dual;
+
+ROUND(777.777,-2)
+-----------------
+              800
+
+SQL> round(777.777, -1) from dual;
+SP2-0734: unknown command beginning "round(777...." - rest of line ignored.
+SQL> select round(777.777, -1) from dual;
+
+ROUND(777.777,-1)
+-----------------
+              780
+
+SQL> select round(777.777, 2) from dual;
+
+ROUND(777.777,2)
+----------------
+          777.78
+
+SQL> select round(777.777, 0) from dual;
+
+ROUND(777.777,0)
+----------------
+             778

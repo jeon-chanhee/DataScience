@@ -1,0 +1,24 @@
+SQL> create table sawontable (
+  2  sabun number(3),
+  3  saname varchar2(10),
+  4  deptno number(3),
+  5  sajob varchar2(10),
+  6  sapay number(10),
+  7  sahire date,
+  8  sasex varchar2(6),
+  9  samgr number(3)
+ 10  );
+
+Table created.
+
+SQL> insert into sawontable values ('2','한국남','20','부장',3000,'1988/11/01','남자',1);
+
+1 row created.
+
+SQL> insert into sawontable values ('2','한국남','20','부장',3000,'1988/11/01','여자',1);
+
+1 row created.
+
+SQL> insert into sawontable values ('2','한국남','20','부장',3000,'1988/11/01','중성',1);
+
+1 row created.
