@@ -1,0 +1,15 @@
+SQL> update membert01
+  2  set mem_pwd='4321';
+
+5 rows updated.
+
+SQL> update membert01
+  2  set mem_pwd='1234';
+
+5 rows updated.
+
+SQL> update membert01
+  2  set mem_pwd='4321'
+  3  where mem_id='orange';
+
+1 row updated.

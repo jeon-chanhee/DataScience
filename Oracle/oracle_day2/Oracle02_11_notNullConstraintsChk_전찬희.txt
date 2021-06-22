@@ -1,0 +1,15 @@
+SQL> create table depttable (
+  2  deptno number(3) not null,
+  3  dname varchar2(10),
+  4  loc varchar2(20)
+  5  );
+
+Table created.
+
+SQL> insert into depttable(dname,loc) values('총무부','서울');
+insert into depttable(dname,loc) values('총무부','서울')
+*
+ERROR at line 1:
+ORA-01400: cannot insert NULL into ("SCOTT"."DEPTTABLE"."DEPTNO")
+
+----------> not null 을 사용하면 null 값이 안들어감

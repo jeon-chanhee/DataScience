@@ -1,0 +1,15 @@
+SQL> create table dept (
+  2  deptno number(3) constraint dept_deptno_nn  not null,
+  3  dname varchar2(10),
+  4  loc varchar2(10));
+
+Table created.
+
+SQL> select owner,constraint_name from user_constraints;
+
+OWNER
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CONSTRAINT_NAME
+------------------------------------------------------------
+SCOTT
+DEPT_DEPTNO_NN

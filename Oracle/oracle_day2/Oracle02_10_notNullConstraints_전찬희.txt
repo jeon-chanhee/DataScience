@@ -1,0 +1,17 @@
+SQL> insert into depttable(dname,loc) values('醚公何','辑匡');
+
+1 row created.
+
+SQL> select * from depttable;
+
+    DEPTNO DNAME                LOC
+---------- -------------------- --------------------
+           醚公何               辑匡
+
+SQL> delete from depttable;
+
+1 row deleted.
+
+SQL> drop table depttable;
+
+Table dropped.
