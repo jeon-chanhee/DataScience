@@ -1,1 +1,1 @@
-python lib 이용한 machine learning
+python library sklearn을 이용한 machine learning
