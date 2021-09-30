@@ -6,6 +6,3 @@
 기간 : 2021/05 ~ 2021/08
 
 교육 내용 : python 기초 문법, 데이터 시각화, machine learinng, deep learning, sql, django
-
-
-![21년도 혁신성장사업_커리큘럼001](https://user-images.githubusercontent.com/83809636/135408675-f0b3c43e-62e3-4186-8f88-8c7da1584d17.jpg)
