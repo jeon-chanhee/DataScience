@@ -1,12 +1,4 @@
-# DataScience
+# 2021 홍익대학교 빅데이터 전문가 양성과정
 
-- 👋 Hi, I’m @jeon-chanhee
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+2021/05 ~ 2021/08 까지 python 기초 문법부터 시작해 
 
-<!---
-jeon-chanhee/jeon-chanhee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
